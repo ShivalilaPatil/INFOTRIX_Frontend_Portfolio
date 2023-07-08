@@ -1,0 +1,87 @@
+.about {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#title {
+  margin: 2rem auto 1.5rem 0.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: rgb(11, 132, 136);
+}
+
+#title1 {
+  font-weight: 270;
+  font-size: 140%;
+}
+
+.para {
+  font-size: 120%;
+  line-height: 27px;
+  text-align: justify;
+  margin: auto 15px auto auto;
+}
+
+#title2 {
+  margin: 30px auto 20px auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.skill-set {
+  display: flex;
+  gap: 2%;
+  margin: 10px auto 50px auto;
+}
+
+.skill_bar {
+  background-color: rgb(28, 26, 61);
+  color: rgb(231, 218, 231);
+  padding: 4px 15px;
+  margin: 2px;
+  /* border: 2px solid rgb(48, 132, 134); */
+  border-radius: 35px;
+}
+
+.res-link {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 120%;
+  font-weight: 600;
+  padding: 3px auto 6px auto;
+  margin: 4px auto 20px auto;
+}
+
+.title3 {
+  margin: 4rem auto 1.4rem auto;
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.exp_con img {
+  height: 26px;
+  width: 30px;
+  margin: 2px auto 0px auto;
+  padding: 2px auto 0% auto;
+}
+
+.exp_con_com {
+  margin: 0px 1px auto 0.3rem;
+  padding: 2px auto;
+  line-height: 28px;
+}
+
+/* ========== Responsive about ==========  */
+
+@media (max-width: 980px) {
+  .skill-set {
+    display: grid;
+    grid-template-columns: 30% 30%;
+  }
+}
